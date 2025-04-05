@@ -194,15 +194,10 @@ const r = runAlgorithm(commands, workers, popSize, maxIter);
 
 console.log("Kết quả cuối cùng:", r);
 
-fs.writeFileSync(
-    "js/output.json",
-    JSON.stringify(r, null, 2),
-    "utf8",
-    (err) => {
-        if (err) {
-            console.error("Lỗi khi ghi file:", err);
-        } else {
-            console.log("Ghi file thành công!");
-        }
+fs.writeFileSync("output.json", JSON.stringify(r, null, 2), "utf8", (err) => {
+    if (err) {
+        console.error("Lỗi khi ghi file:", err);
+    } else {
+        console.log("Ghi file thành công!");
     }
-);
+});
