@@ -1,0 +1,289 @@
+{
+    "commands": [
+        {
+            "command_id": "0",
+            "id": 1,
+            "quantity": 10000,
+            "status": "new",
+            "start_date": "06-04-2025",
+            "end_date": "10-04-2025",
+            "operations": [
+                {
+                    "id": 1,
+                    "resources": [
+                        {
+                            "machine_id": "674c925212ac7c40444d246f",
+                            "hprs": 200,
+                            "costPerHour": 20000.0,
+                            "minExp": 0,
+                            "role": "674c925212ac7c40444d2434"
+                        }
+                    ],
+                    "prevOperation": []
+                },
+                {
+                    "id": 2,
+                    "resources": [
+                        {
+                            "machine_id": "674c925212ac7c40444d2471",
+                            "hprs": 200,
+                            "costPerHour": 40000.0,
+                            "minExp": 1,
+                            "role": "674c925212ac7c40444d2436"
+                        }
+                    ],
+                    "prevOperation": [1]
+                },
+                {
+                    "id": 3,
+                    "resources": [
+                        {
+                            "machine_id": "674c925212ac7c40444d2473",
+                            "hprs": 200,
+                            "costPerHour": 20000.0,
+                            "minExp": 1,
+                            "role": "674c925212ac7c40444d2438"
+                        }
+                    ],
+                    "prevOperation": [2]
+                },
+                {
+                    "id": 4,
+                    "resources": [
+                        {
+                            "machine_id": "674c925212ac7c40444d2475",
+                            "hprs": 200,
+                            "costPerHour": 40000.0,
+                            "minExp": 1,
+                            "role": "674c925212ac7c40444d243a"
+                        }
+                    ],
+                    "prevOperation": [3]
+                },
+                {
+                    "id": 5,
+                    "resources": [
+                        {
+                            "machine_id": "674c925212ac7c40444d2477",
+                            "hprs": 200,
+                            "costPerHour": 10000.0,
+                            "minExp": 1,
+                            "role": "674c925212ac7c40444d243c"
+                        }
+                    ],
+                    "prevOperation": [4]
+                },
+                {
+                    "id": 6,
+                    "resources": [
+                        {
+                            "machine_id": "674c925212ac7c40444d2479",
+                            "hprs": 200,
+                            "costPerHour": 0.0,
+                            "minExp": 0,
+                            "role": "674c925212ac7c40444d243e"
+                        }
+                    ],
+                    "prevOperation": [5]
+                }
+            ],
+            "workOrders": []
+        }
+    ],
+    "workers": [
+        {
+            "worker_id": "674c925212ac7c40444d2415",
+            "id": 1,
+            "name": "Trần Thị Bình",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d2434"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d2416",
+            "id": 2,
+            "name": "Lê Đức Cường",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d2434"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d2417",
+            "id": 3,
+            "name": "Phạm Minh Đức",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d2434"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d2418",
+            "id": 4,
+            "name": "Hoàng Thị Hà",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d2434"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d2419",
+            "id": 5,
+            "name": "Nguyễn Văn Khánh",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d2436"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d241a",
+            "id": 6,
+            "name": "Vũ Thị Lan",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d2436"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d241b",
+            "id": 7,
+            "name": "Đinh Văn Minh",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d2436"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d241c",
+            "id": 8,
+            "name": "Trần Thị Ngọc",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d2436"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d241d",
+            "id": 9,
+            "name": "Nguyễn Văn Phúc",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d2438"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d241e",
+            "id": 10,
+            "name": "Lê Thị Quỳnh",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d2438"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d241f",
+            "id": 11,
+            "name": "Nguyễn Thành Sơn",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d2438"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d2420",
+            "id": 12,
+            "name": "Trần Văn Tâm",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d2438"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d2421",
+            "id": 13,
+            "name": "Phạm Thị Uyên",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d243a"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d2422",
+            "id": 14,
+            "name": "Lê Văn Việt",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d243a"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d2423",
+            "id": 15,
+            "name": "Nguyễn Thị Xuân",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d243a"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d2424",
+            "id": 16,
+            "name": "Đỗ Văn Yên",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d243a"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d2425",
+            "id": 17,
+            "name": "Bùi Thị Anh",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d243c"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d2426",
+            "id": 18,
+            "name": "Trần Văn Bảo",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d243c"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d2427",
+            "id": 19,
+            "name": "Nguyễn Thị Chi",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d243c"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d2428",
+            "id": 20,
+            "name": "Phạm Thị Dung",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d243c"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d2429",
+            "id": 21,
+            "name": "Hoàng Văn Em",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d243e"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d242a",
+            "id": 22,
+            "name": "Ngô Thị Phương",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d243e"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d242b",
+            "id": 23,
+            "name": "Đặng Văn Hùng",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d243e"
+        },
+        {
+            "worker_id": "674c925212ac7c40444d242c",
+            "id": 24,
+            "name": "Bùi Thị Hoa",
+            "exp": 5.0,
+            "baseSalary": 14000.0,
+            "role": "674c925212ac7c40444d243e"
+        }
+    ],
+    "pop_size": 10,
+    "max_iter": 10
+}

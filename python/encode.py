@@ -1,7 +1,7 @@
 import numpy as np
 import random
-from .input import input
-from .decode import Decode
+from input import input
+from decode import Decode
 
 
 class Encode:

@@ -1,5 +1,5 @@
 import numpy as np
-from .ga import swap, revert, mutation, pox_crossover, spx_crossover, lsa
+from ga import swap, revert, mutation, pox_crossover, spx_crossover, lsa
 
 
 class Particle:

@@ -1,0 +1,121 @@
+[
+    {
+        "id": "0",
+        "workOrders": [
+            {
+                "id": "1",
+                "tasks": [
+                    {
+                        "lot_size": 10000.0,
+                        "machine": "674c925212ac7c40444d246f",
+                        "responsible": "674c925212ac7c40444d2416",
+                        "startDate": "2025-04-06",
+                        "endDate": "2025-04-08",
+                        "startHour": 0.0,
+                        "endHour": 2.0
+                    }
+                ],
+                "startDate": "2025-04-06",
+                "endDate": "2025-04-08",
+                "startHour": 0.0,
+                "endHour": 2.0
+            },
+            {
+                "id": "2",
+                "tasks": [
+                    {
+                        "lot_size": 10000.0,
+                        "machine": "674c925212ac7c40444d2471",
+                        "responsible": "674c925212ac7c40444d241b",
+                        "startDate": "2025-04-08",
+                        "endDate": "2025-04-10",
+                        "startHour": 2.0,
+                        "endHour": 4.0
+                    }
+                ],
+                "startDate": "2025-04-08",
+                "endDate": "2025-04-10",
+                "startHour": 2.0,
+                "endHour": 4.0
+            },
+            {
+                "id": "3",
+                "tasks": [
+                    {
+                        "lot_size": 10000.0,
+                        "machine": "674c925212ac7c40444d2473",
+                        "responsible": "674c925212ac7c40444d241e",
+                        "startDate": "2025-04-10",
+                        "endDate": "2025-04-12",
+                        "startHour": 4.0,
+                        "endHour": 6.0
+                    }
+                ],
+                "startDate": "2025-04-10",
+                "endDate": "2025-04-12",
+                "startHour": 4.0,
+                "endHour": 6.0
+            },
+            {
+                "id": "4",
+                "tasks": [
+                    {
+                        "lot_size": 10000.0,
+                        "machine": "674c925212ac7c40444d2475",
+                        "responsible": "674c925212ac7c40444d2423",
+                        "startDate": "2025-04-12",
+                        "endDate": "2025-04-14",
+                        "startHour": 6.0,
+                        "endHour": 8.0
+                    }
+                ],
+                "startDate": "2025-04-12",
+                "endDate": "2025-04-14",
+                "startHour": 6.0,
+                "endHour": 8.0
+            },
+            {
+                "id": "5",
+                "tasks": [
+                    {
+                        "lot_size": 10000.0,
+                        "machine": "674c925212ac7c40444d2477",
+                        "responsible": "674c925212ac7c40444d2425",
+                        "startDate": "2025-04-14",
+                        "endDate": "2025-04-16",
+                        "startHour": 8.0,
+                        "endHour": 10.0
+                    }
+                ],
+                "startDate": "2025-04-14",
+                "endDate": "2025-04-16",
+                "startHour": 8.0,
+                "endHour": 10.0
+            },
+            {
+                "id": "6",
+                "tasks": [
+                    {
+                        "lot_size": 10000.0,
+                        "machine": "674c925212ac7c40444d2479",
+                        "responsible": "674c925212ac7c40444d242c",
+                        "startDate": "2025-04-16",
+                        "endDate": "2025-04-18",
+                        "startHour": 10.0,
+                        "endHour": 12.0
+                    }
+                ],
+                "startDate": "2025-04-16",
+                "endDate": "2025-04-18",
+                "startHour": 10.0,
+                "endHour": 12.0
+            }
+        ],
+        "startDate": "2025-04-06",
+        "endDate": "2025-04-18",
+        "startTurn": 3,
+        "endTurn": 1,
+        "startHour": 0.0,
+        "endHour": 12.0
+    }
+]

@@ -1,3 +1,4 @@
+import json
 from input import input
 from encode import Encode
 from decode import Decode
@@ -142,3 +143,25 @@ def run_algorithm(commands, workers, pop_size, max_iter):
         print(f"Exception occurred: {e}")
         print(traceback.format_exc())
         raise e
+
+
+from command_input import CommandInput
+from worker_input import WorkerInput
+
+if __name__ == "__main__":
+    # Đọc dữ liệu từ file data.json với mã hóa UTF-8
+    with open("data.json", "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    # Chuyển đổi commands và workers thành các đối tượng
+    commands = [CommandInput(**cmd) for cmd in data["commands"]]
+    workers = [WorkerInput(**worker) for worker in data["workers"]]
+    pop_size = data["pop_size"]
+    max_iter = data["max_iter"]
+
+    # Chạy thuật toán
+    result = run_algorithm(commands, workers, pop_size, max_iter)
+
+    # Ghi kết quả vào file output.json
+    with open("output.json", "w", encoding="utf-8") as f:
+        json.dump(result, f, indent=4, ensure_ascii=False)
